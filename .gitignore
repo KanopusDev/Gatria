@@ -1,12 +1,10 @@
 
-employee_management.log
-
 data/
 
 config.json
 
-employee_management/__pycache__/
+src/gatria/__pycache__/
 
-employee_management/adapters/__pycache__/
+src/gatria/adapters/__pycache__/
 
-employee_management/web/__pycache__/
+src/gatria/web/__pycache__/

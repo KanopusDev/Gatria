@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="Gatria",
+    name="gatria",  
     version="0.1.0",
     author="Pradyumn Tandon",
     author_email="pradyumn.tandon@hotmail.com",
@@ -12,7 +12,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Canopus-Development/Gatria",
-    packages=find_packages(),
+    packages=find_packages(where="src"),  
+    package_dir={"": "src"}, 
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
@@ -32,10 +33,6 @@ setup(
         "sqlalchemy>=1.4.0",
         "pymongo>=4.0.0",
         "aiohttp>=3.8.0",
-        "scikit-learn>=1.0.0",
-        "tensorflow>=2.0.0",
-        "numpy>=1.20.0",
-        "pandas>=1.3.0",
     ],
     extras_require={
         'web': [
@@ -43,11 +40,14 @@ setup(
             'django>=4.0.0',
             'fastapi>=0.68.0',
             'uvicorn>=0.15.0',
+            'werkzeug>=2.0.0',  # Added Flask dependency
+            'django-rest-framework>=3.12.0',  # Added Django REST support
         ],
         'database': [
             'sqlalchemy>=1.4.0',
             'pymongo>=4.0.0',
             'redis>=4.0.0',
+            'psycopg2-binary>=2.9.0',  # Added PostgreSQL support
         ],
         'async': [
             'aiohttp>=3.8.0',
@@ -67,6 +67,8 @@ setup(
             'isort>=5.0.0',
             'mypy>=0.900',
             'flake8>=3.9.0',
+            'pytest-cov>=2.12.0',  # Added coverage support
+            'tox>=3.24.0',  # Added multi-environment testing
         ],
     }
 )
