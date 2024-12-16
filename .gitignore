@@ -1,0 +1,12 @@
+
+employee_management.log
+
+data/
+
+config.json
+
+employee_management/__pycache__/
+
+employee_management/adapters/__pycache__/
+
+employee_management/web/__pycache__/
