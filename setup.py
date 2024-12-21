@@ -40,14 +40,14 @@ setup(
             'django>=4.0.0',
             'fastapi>=0.68.0',
             'uvicorn>=0.15.0',
-            'werkzeug>=2.0.0',  # Added Flask dependency
-            'django-rest-framework>=3.12.0',  # Added Django REST support
+            'werkzeug>=2.0.0',
+            'django-rest-framework>=3.12.0',  
         ],
         'database': [
             'sqlalchemy>=1.4.0',
             'pymongo>=4.0.0',
             'redis>=4.0.0',
-            'psycopg2-binary>=2.9.0',  # Added PostgreSQL support
+            'psycopg2-binary>=2.9.0', 
         ],
         'async': [
             'aiohttp>=3.8.0',
@@ -67,8 +67,8 @@ setup(
             'isort>=5.0.0',
             'mypy>=0.900',
             'flake8>=3.9.0',
-            'pytest-cov>=2.12.0',  # Added coverage support
-            'tox>=3.24.0',  # Added multi-environment testing
+            'pytest-cov>=2.12.0',  
+            'tox>=3.24.0',  
         ],
     }
 )
