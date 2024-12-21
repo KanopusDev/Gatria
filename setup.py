@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="gatria",  
-    version="0.1.0",
+    version="0.1.1",
     author="Pradyumn Tandon",
     author_email="pradyumn.tandon@hotmail.com",
     description="A comprehensive employee management system with multiple framework adapters",

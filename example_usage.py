@@ -1,6 +1,6 @@
 import asyncio
 from datetime import datetime, timedelta
-from employee_management import AttendanceTracker, LeaveManagement, PerformanceTracker, LeaveStatus, ConfigManager, ValidationError, AdapterFactory
+from gatria import AttendanceTracker, LeaveManagement, PerformanceTracker, LeaveStatus, ConfigManager, ValidationError, AdapterFactory
 
 
 async def main():
