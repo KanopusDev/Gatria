@@ -270,4 +270,4 @@ For questions or support, please contact the project maintainer:
 
 - **Author**: Pradyumn Tandon
 - **Email**: pradyumn.tandon@hotmail.com
-- **GitHub**: [Canopus-Development/Gatria](https://github.com/Canopus-Development/Gatria)
+- **GitHub**: [Kanopusdev/Gatria](https://github.com/Kanopusdev/Gatria)

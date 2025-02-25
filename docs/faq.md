@@ -127,7 +127,7 @@ Yes, contributors are expected to adhere to our [Code of Conduct](./CODE_OF_COND
 
 If you have questions or encounter issues, you can:
 
-- **Submit an issue** on GitHub: [Issue Tracker](https://github.com/Canopus-Development/Gatria/issues)
+- **Submit an issue** on GitHub: [Issue Tracker](https://github.com/Kanopusdev/Gatria/issues)
 - **Contact the maintainer**:
   - **Email**: pradyumn.tandon@hotmail.com
 

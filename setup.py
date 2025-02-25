@@ -11,7 +11,7 @@ setup(
     description="A comprehensive employee management system with multiple framework adapters",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Canopus-Development/Gatria",
+    url="https://github.com/Kanopusdev/Gatria",
     packages=find_packages(where="src"),  
     package_dir={"": "src"}, 
     classifiers=[
